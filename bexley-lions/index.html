@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bexley High School | News & Events</title>
+    <meta
+      name="description"
+      content="Official school news, athletic updates, and community announcements for Bexley High School in Columbus, Ohio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Bexley High School home">
+          <img src="assets/bexley-logo.svg" alt="Bexley High School logo" class="brand-mark" />
+          <div>
+            <span class="brand-name">Bexley High School</span>
+            <small>Columbus, Ohio</small>
+          </div>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#events">Events</a>
+          <a href="#gallery">Gallery</a>
+        </nav>
+
+        <a class="nav-cta" href="admin.html">Portal</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="logo-row">
+              <img src="assets/bexley-logo.svg" alt="Bexley High School logo" class="hero-logo" />
+              <div class="mini-brand">
+                <span>Bexley High School</span>
+                <strong>Lions</strong>
+              </div>
+            </div>
+
+            <span class="eyebrow">Official student & family communication hub</span>
+            <h1>
+              <span class="headline-small">Bexley</span>
+              <span class="headline-large">LIONS</span>
+            </h1>
+            <p>
+              Stay connected to the latest school news, student achievements, athletics,
+              event updates, and community moments from Bexley High School.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button primary" href="#news">Latest News</a>
+              <a class="button secondary" href="#events">View Schedule</a>
+            </div>
+
+            <div class="hero-badges" aria-label="School highlights">
+              <span>Academics</span>
+              <span>Athletics</span>
+              <span>Community</span>
+            </div>
+
+            <ul class="hero-stats">
+              <li><strong>12</strong><span>Upcoming events</span></li>
+              <li><strong>24</strong><span>School updates</span></li>
+              <li><strong>1,800</strong><span>Community reach</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="visual-card highlight-card">
+              <div class="visual-tag">Friday night lights</div>
+              <h3>Homecoming Week</h3>
+              <p>Spirit events, pep rally, and a community showcase under the lights.</p>
+              <div class="score-row">
+                <span>Bexley</span>
+                <strong>28</strong>
+                <em>vs</em>
+                <strong>21</strong>
+                <span>Northview</span>
+              </div>
+            </div>
+
+            <div class="visual-card mini-panel">
+              <div class="mini-label">Next Game</div>
+              <div class="game-line">
+                <span class="team">Bexley</span>
+                <strong>VS</strong>
+                <span class="team opponent">Northview</span>
+              </div>
+              <p>Friday • 7:00 PM • Main Stadium</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section feature-band">
+        <div class="container feature-grid">
+          <article class="feature-box">
+            <span class="feature-icon">🏫</span>
+            <h3>School News</h3>
+            <p>Campus announcements, student achievements, and key updates in one place.</p>
+          </article>
+          <article class="feature-box accent">
+            <span class="feature-icon">🏆</span>
+            <h3>Game Day</h3>
+            <p>Schedules, scores, recaps, and community events for every Lions matchup.</p>
+          </article>
+          <article class="feature-box">
+            <span class="feature-icon">🎉</span>
+            <h3>Community</h3>
+            <p>Spirit week, fundraisers, celebrations, and moments that bring everyone together.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section spotlight-section">
+        <div class="container spotlight-grid">
+          <div class="spotlight-copy">
+            <span class="section-kicker">Why Bexley</span>
+            <h2>A school culture built around belonging, achievement, and pride.</h2>
+            <p>
+              Bexley High School is centered on strong academics, student voice, and a welcoming
+              community that celebrates growth in and out of the classroom. From classroom learning
+              to game-night energy, every part of the experience is designed to help students thrive.
+            </p>
+          </div>
+
+          <div class="spotlight-panel">
+            <div class="stat-stack">
+              <div>
+                <strong>1,800+</strong>
+                <span>Students and families reached</span>
+              </div>
+              <div>
+                <strong>12</strong>
+                <span>School events this month</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Official communication hub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Latest updates</span>
+              <h2>News and announcements</h2>
+            </div>
+            <a href="#" class="text-link">View all news</a>
+          </div>
+
+          <div class="news-grid" id="newsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section alt-bg" id="events">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Calendar</span>
+              <h2>Upcoming games and events</h2>
+            </div>
+            <a href="#" class="text-link">Full calendar</a>
+          </div>
+
+          <div class="event-grid" id="eventGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">Highlights</span>
+              <h2>Recent moments</h2>
+            </div>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-card tall">
+              <div class="gallery-overlay">
+                <span>Football</span>
+                <strong>Friday night energy</strong>
+              </div>
+            </div>
+            <div class="gallery-card short">
+              <div class="gallery-overlay">
+                <span>Volleyball</span>
+                <strong>Strong finish</strong>
+              </div>
+            </div>
+            <div class="gallery-card short">
+              <div class="gallery-overlay">
+                <span>Student life</span>
+                <strong>Spirit week</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="about">
+        <div class="container cta-box">
+          <div>
+            <span class="eyebrow">About the hub</span>
+            <h2>One place for everything the community needs to know.</h2>
+          </div>
+          <a href="admin.html" class="button primary">Open admin demo</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="brand-name">Bexley Lions</p>
+          <p class="muted">School communication and event hub</p>
+        </div>
+        <div class="footer-links">
+          <a href="#news">News</a>
+          <a href="#events">Events</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

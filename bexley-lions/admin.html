@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | Bexley Lions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="admin-body">
+    <header class="site-header admin-topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Bexley High School home">
+          <img src="assets/bexley-logo.svg" alt="Bexley High School logo" class="brand-mark" />
+          <div>
+            <span class="brand-name">Bexley High School</span>
+            <small>Admin Portal</small>
+          </div>
+        </a>
+
+        <nav class="main-nav">
+          <a href="index.html">View site</a>
+          <a href="#posts">Posts</a>
+          <a href="#editor">Create</a>
+        </nav>
+
+        <a class="nav-cta" href="index.html">Logout</a>
+      </div>
+    </header>
+
+    <main class="admin-shell">
+      <aside class="admin-sidebar">
+        <div class="sidebar-box">
+          <p class="mini-label">Overview</p>
+          <h3>Today</h3>
+          <ul class="sidebar-stats">
+            <li><span>Posts</span><strong>18</strong></li>
+            <li><span>Events</span><strong>07</strong></li>
+            <li><span>Pending</span><strong>03</strong></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-box quick-actions">
+          <p class="mini-label">Quick actions</p>
+          <button class="chip active">New post</button>
+          <button class="chip">Add event</button>
+          <button class="chip">Upload photo</button>
+        </div>
+      </aside>
+
+      <section class="admin-content">
+        <div class="admin-header">
+          <div>
+            <span class="eyebrow">Dashboard</span>
+            <h1>Content management</h1>
+          </div>
+          <button class="button primary">Publish update</button>
+        </div>
+
+        <div class="editor-card" id="editor">
+          <h2>Create new post</h2>
+          <form class="editor-form">
+            <div class="field-row">
+              <label>
+                Title
+                <input type="text" value="Homecoming Week Kickoff" />
+              </label>
+              <label>
+                Category
+                <select>
+                  <option>School News</option>
+                  <option>Game Day</option>
+                  <option>Announcements</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Summary
+              <textarea rows="3">Students and families are invited to the kickoff event this week with spirit activities, a pep rally, and community celebration.</textarea>
+            </label>
+
+            <label>
+              Content
+              <textarea rows="6">The school community will gather on Thursday for a student-led celebration featuring themed dress-up days, food trucks, a pep rally, and a preview of Friday's football matchup. Families are encouraged to attend and support the teams.</textarea>
+            </label>
+
+            <div class="field-row">
+              <label>
+                Date
+                <input type="date" value="2026-09-27" />
+              </label>
+              <label>
+                Image
+                <input type="file" />
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button type="button" class="button secondary">Save draft</button>
+              <button type="submit" class="button primary">Publish</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="table-card" id="posts">
+          <div class="table-header">
+            <h2>Recent posts</h2>
+            <span class="badge">Live</span>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Type</th>
+                <th>Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Homecoming Week Kickoff</td>
+                <td>School News</td>
+                <td>Sep 27</td>
+                <td><span class="status success">Published</span></td>
+              </tr>
+              <tr>
+                <td>Varsity Football vs Northview</td>
+                <td>Game Day</td>
+                <td>Sep 26</td>
+                <td><span class="status success">Published</span></td>
+              </tr>
+              <tr>
+                <td>Volleyball team fundraiser</td>
+                <td>Announcement</td>
+                <td>Sep 24</td>
+                <td><span class="status warning">Draft</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

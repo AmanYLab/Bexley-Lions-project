@@ -1,0 +1,23 @@
+<svg width="260" height="260" viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="30" y1="30" x2="230" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2D63"/>
+      <stop offset="1" stop-color="#1B4E9A"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="70" y1="40" x2="180" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D46A"/>
+      <stop offset="1" stop-color="#D4A73E"/>
+    </linearGradient>
+  </defs>
+  <path d="M130 18L200 42V110C200 164 171 212 130 242C89 212 60 164 60 110V42L130 18Z" fill="url(#shieldGradient)"/>
+  <path d="M130 34L184 52V106C184 151 160 188 130 213C100 188 76 151 76 106V52L130 34Z" fill="#F7F9FC" fill-opacity="0.06"/>
+  <path d="M130 38L176 54V106C176 146 156 180 130 201C104 180 84 146 84 106V54L130 38Z" stroke="url(#goldGradient)" stroke-width="6"/>
+  <path d="M90 118C90 96 103 79 120 72C133 67 144 69 154 78C166 88 171 103 171 120C171 143 155 161 130 168C105 161 90 143 90 118Z" fill="url(#goldGradient)"/>
+  <path d="M111 123C111 109 119 98 130 91C142 98 151 108 151 123C151 136 143 147 130 153C117 147 111 136 111 123Z" fill="#0D2D63"/>
+  <path d="M116 98L130 76L144 98H116Z" fill="#F7F9FC" fill-opacity="0.15"/>
+  <circle cx="130" cy="110" r="8" fill="#F7F9FC" fill-opacity="0.9"/>
+  <path d="M110 154H150V168C150 177 143 183 130 183C117 183 110 177 110 168V154Z" fill="#0D2D63"/>
+  <path d="M121 169L130 179L139 169" stroke="#F7F9FC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="130" y="102" text-anchor="middle" font-size="19" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#0D2D63">B</text>
+  <text x="130" y="197" text-anchor="middle" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#F4D46A" letter-spacing="3">LIONS</text>
+</svg>
