@@ -1035,6 +1035,10 @@ th {
     grid-template-columns: 1fr;
   }
 
+  .sports-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .main-nav {
     display: none;
   }
@@ -1052,6 +1056,16 @@ th {
   .nav-wrap {
     flex-wrap: wrap;
     padding: 12px 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .sports-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sport-card {
+    min-height: 250px;
   }
 }
 

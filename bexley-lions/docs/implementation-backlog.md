@@ -73,9 +73,8 @@ Turn the approved concept into a clear build plan with implementation priorities
 - Show upcoming items on both homepage and events page
 
 ### Task 4: Athletics section
-- Show sport highlights or featured programs
-- Include a school sports directory with available programs and details
-- Display key information such as season, level, and general team focus
+- Completed: show sport highlights and a school sports directory
+- Completed: include available programs with season, level, and team details
 - Include schedule-style information and callouts
 - Keep the section aligned with the school identity
 
@@ -101,6 +100,12 @@ Turn the approved concept into a clear build plan with implementation priorities
 - Ensure navigation remains accessible on phones
 - Tune typography and button sizes
 - Confirm content readability
+
+### Task 9: MVP validation
+- Test the homepage at desktop, tablet, and phone widths
+- Confirm navigation anchors reach the correct sections
+- Check that news and event cards render from the content data
+- Review the public flow with 3–5 stakeholders before adding backend complexity
 
 ## Definition of ready
 A task is ready when:
