@@ -74,6 +74,8 @@ Turn the approved concept into a clear build plan with implementation priorities
 
 ### Task 4: Athletics section
 - Show sport highlights or featured programs
+- Include a school sports directory with available programs and details
+- Display key information such as season, level, and general team focus
 - Include schedule-style information and callouts
 - Keep the section aligned with the school identity
 

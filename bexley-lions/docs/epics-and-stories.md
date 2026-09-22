@@ -39,13 +39,14 @@ Acceptance criteria:
 - Game-day posts include opponent and location if applicable
 - Upcoming items are visible on the homepage and events page
 
-#### Story 1.4: Explore athletics
-As a supporter, I want to view athletics information so that I can follow schedule and game-day activity.
+#### Story 1.4: Explore athletics and school sports
+As a supporter, I want to view the sports available at the school and their details so that I can follow team activity and understand each program.
 
 Acceptance criteria:
-- Athletics page includes sport highlights and upcoming schedules
+- Athletics section includes sport highlights and key program details
+- User can see available sports such as Football, Volleyball, Cross Country, Basketball, Wrestling, and Track & Field
 - Sports-related items feel consistent with the main school branding
-- Key information is clear without clutter
+- Key schedule and program information is clear without clutter
 
 ## Epic 2: Admin content publishing workflow
 ### Goal

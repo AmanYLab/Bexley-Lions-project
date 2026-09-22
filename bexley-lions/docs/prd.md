@@ -77,7 +77,8 @@ Need visibility into major events, sports, and fundraising or school community a
 2. Visitors must be able to browse recent news articles.
 3. Visitors must be able to view upcoming events and game schedules.
 4. Visitors must be able to access athletics and school life information.
-5. The site must be readable and visually consistent across mobile and desktop.
+5. Visitors must be able to browse the sports available at the school and view key details for each program.
+6. The site must be readable and visually consistent across mobile and desktop.
 
 ### Admin publishing
 1. Admin must be able to create a news post.
@@ -116,6 +117,16 @@ Need visibility into major events, sports, and fundraising or school community a
 - Highlighted announcement
 - Featured athletics update
 - Upcoming event card
+
+### School sport program
+- Program name
+- Season
+- Team level
+- Short description
+- Key schedule or event context
+- Program image or visual banner
+
+Examples: Football, Volleyball, Cross Country, Basketball, Wrestling, and Track & Field.
 
 ## 12. Design direction
 The website should feel like a modern, official school presence, not a generic sports page. The visual direction should include:

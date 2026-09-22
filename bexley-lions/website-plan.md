@@ -51,6 +51,17 @@ A public-facing website that looks professional and is easy to maintain, paired 
 - details
 - featured image
 
+### School sports programs
+- sport name
+- season (fall, winter, spring)
+- team level (varsity, JV, club)
+- short description
+- next game or practice details
+- category and team identity
+- image or program banner
+
+The public site should include a visible athletics section that highlights the sports available at the school and provides enough detail for parents, students, and supporters to understand each program quickly.
+
 ## 7. UX objectives
 - Clear and fast information discovery
 - Mobile-friendly layout
